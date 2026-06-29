@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.win-amd64-*
+annoy
+
+# Environment
+.env
+*.env
+
+# Data (large files — anywhere in project)
+*.h5ad
+!data/.gitkeep
+data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# Development docs (not needed for running)
+docs/
+
+# Test files
+tests/
+test_*.py
+verify_*.py
+
+# Utility scripts (not needed for running)
+scripts/
+download_*.py
+cleanup.py
+*.sh
+
+# Examples / test results
+examples/
+
+# Deprecated memory components
+agent/memory/profile_memory.py
+agent/memory/mem0_memory.py
+agent/memory/mem0_config.py
+agent/memory/session_summary.py
